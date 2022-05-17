@@ -1,0 +1,19 @@
+Atalhos úteis do Git Bash (ILC)
+
+cd + primeiras letras + tab : preenche o nome dos arquivos da página
+pwd : mostra o caminho da pasta que estamos
+mv + nome do arquivo + ./ + nome da pasya que queremos mover : mover arquivo
+q : sair
+seta para cima : mostra os últimos comandos
+
+Algums Comandos Git
+
+git init  - Inicia o repositório no diretório escolhido.
+git add . - Prepara as modificações do repositório para o commit no controle de versão local.
+git commit -m "Mensagem aqui" - Permite que você crie um commit, ou seja, você consegue guardar 
+                                o estado do seu repositório naquele momento. A opção -m <mensagem>
+                                faz com que você consegue incluir uma mensagem no seu commit.
+git push origin main - Permite que você faça um push de commits de seu repositório local para 
+                       um repositório remote.
+git pull origin main - Verifica se a alguma atualização no repositório remoto e caso tenha atualiza
+                       no repositório local.
