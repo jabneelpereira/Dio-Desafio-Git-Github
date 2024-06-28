@@ -1,10 +1,11 @@
-Atalhos úteis do Git Bash (ILC)
+Atalhos úteis do terminal
 
 cd + primeiras letras + tab : preenche o nome dos arquivos da página
 pwd : mostra o caminho da pasta que estamos
 mv + nome do arquivo + ./ + nome da pasya que queremos mover : mover arquivo
 q : sair
 seta para cima : mostra os últimos comandos
+cat + nome do arquivo : utilizar o comando “cat” para criar um arquivo de texto, em especial arquivos mais simples.
 
 Algums Comandos Git
 
@@ -17,3 +18,9 @@ git push origin main - Permite que você faça um push de commits de seu reposit
                        um repositório remote.
 git pull origin main - Verifica se a alguma atualização no repositório remoto e caso tenha atualiza
                        no repositório local.
+
+- Criação de Branches
+
+Para criar uma nova branch, você usa o comando git branch <nome-da-branch>. Isso cria uma nova branch, mas não muda para ela automaticamente. Para alternar para a nova branch, use git checkout <nome-da-branch> ou combine os dois comandos com git checkout -b <nome-da-branch>.
+
+Exemplo:
